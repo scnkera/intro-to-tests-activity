@@ -1,4 +1,5 @@
 def count_a_letter(sentence, letter):
+
     if not letter.isalpha():
         return None
     if not sentence:
